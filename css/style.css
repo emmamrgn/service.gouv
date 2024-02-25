@@ -1,0 +1,126 @@
+body {
+    background-color: #faf8f2;
+    font-family: "Trebuchet MS", sans-serif;
+    flex: 1;
+}
+
+header,
+nav,
+main,
+footer {
+    padding: 1em 0;
+}
+
+header {
+    background-color: #74a4e2;
+    text-align: center;
+    border-radius: 1em;
+}
+
+#divCentral {
+    display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+    margin: auto;
+	box-sizing: border-box;
+	height: 100%;
+}
+
+nav {
+	flex : 2;
+    background-color: #ab5454;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+	margin-left: 2em;
+    line-height: 2em;
+    min-height: 75vh;
+}
+
+nav > ul {
+	padding-left: 0.5em;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-style: bold;
+}
+
+.menu a:hover {
+    color: #fccd87;
+    text-decoration: none;
+}
+
+main {
+	flex : 10;
+    background-color: #faf8f2;
+    padding-left: 3em;
+}
+
+footer {
+	display: flex;
+	justify-content: space-around;
+    background-color: #74a4e2;
+    border-radius: 1em;
+}
+
+.fond-jaune {
+	background-color: #ffe680;
+}
+
+
+.pair li {
+    display: block;
+    width: 1em;
+    inline-size: max-content;
+}
+.top3 li {
+	display: block;
+	width: 1em;
+	inline-size: max-content;
+}
+.top3 li:nth-of-type(1) {
+    background: gold;
+    }
+.top3 li:nth-of-type(2) {
+    background: silver;
+    }
+.top3 li:nth-of-type(3) {
+    background: #b08d57 ;
+    }
+
+
+.container {
+    float:left;
+    width: 960px;
+    margin: 0 auto;
+    height: 500px;
+ }
+
+.essaicommune {
+    float:left;
+    width: 15vw;
+    height: 2000px;
+ }
+ .essaiservice {
+    float:left;
+    width: 35vw;
+    height: 2000px;
+ }
+
+ .essaimois {
+    width: 70vw;
+    height: 2000px;
+ }   
+
+.contentfreetrial {
+    margin:auto;
+}
+
+.logo {
+    margin-left: 140px;
+    max-width: 500px;
+    max-height: 500px;
+
+}

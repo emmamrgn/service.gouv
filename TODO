@@ -1,0 +1,11 @@
+controleurIntegration       -> fini
+vueIntegration              -> fini
+
+controleurFreeTrial
+vueFreeTrial                
+controleurStats              -> MARCHE
+vueStats                        -> correction de qlq erreurs
+controleurAjoutService          -> a finir 
+vueAjoutService
+modele                       -> sql de getCommune (???????)
+css
